@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-shadow: 0px 10px 6px rgb(223, 219, 210);
+  margin-top: 20px;
+}
+
+.hamburger {
+  height: 60px;
+  width: 50px;
+}
+
+.youtube {
+  height: 100px;
+  width: 200px;
+  margin: -20px 0 0 30px;
+}
+
+.input {
+  height: 60px;
+  width: 900px;
+  margin-left: 70px;
+  border-radius: 30px;
+}
+
+.search {
+  border: 5px solid black;
+  height: 60px;
+  width: 60px;
+}
+
+.user {
+  height: 150px;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.searchSuggestionontainer {
+  position: fixed;
+  left: 320px;
+  top: 60px;
+  width: 700px;
+  padding: 20px;
+  z-index: 200;
+}
+
+li {
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 5px;
+  text-decoration: none;
+  list-style: none;
+  background-color: white;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-size: bolder;
+}

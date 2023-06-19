@@ -1,0 +1,47 @@
+.container1 {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 250px;
+  border: 1px solid white;
+  box-shadow: 0 3px 20px rgb(206, 203, 199);
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 100px;
+  border: 1px solid white;
+  box-shadow: 0 3px 20px rgb(206, 203, 199);
+}
+
+.items1 {
+  margin-top: 10px;
+  height: 60px;
+  width: 150px;
+  border: 0;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.items2 {
+  margin-top: 10px;
+  height: 60px;
+  width: 100px;
+  border: 0;
+  background-color: white;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.items2 :hover {
+  background-color: aliceblue;
+  border: 2px solid black;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}

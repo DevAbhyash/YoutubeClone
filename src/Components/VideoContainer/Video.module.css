@@ -1,0 +1,32 @@
+.container {
+  border: 3px solid black;
+  margin: 10px;
+  box-shadow: 10px 10px 8px 2px #464545;
+}
+
+.container:hover {
+  background-color: rgb(219, 143, 143);
+}
+
+.img {
+  padding: 10px;
+  border-bottom: 5px solid rgb(125, 110, 110);
+}
+
+.title {
+  width: 400px;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.description {
+  font-size: bold;
+  margin-left: 4px;
+  color: rgb(61, 48, 48);
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+}
